@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 //👉 Put Your Session Id 🐣 👈කියන එක කපලා අයින් කරලා ඔයාගේ Session id එක දාන්න.
-SESSION_ID: process.env.SESSION_ID || "Put Your Session Id 🐣",
+SESSION_ID: process.env.SESSION_ID || "LAKA-MD=tl5DhZyQ#Hy9UracRtM-W_3vMpILxOIzoWQo_RGALIDLrHqQBZr0",
 //👉 Put Your Mongode Url 🖇️ 👈කියන එක කපලා අයින් කරලා ඔයාගේ Mongode Url එක දාන්න.
 MONGODB: process.env.MONGODB || "Put Your Mongode Url 🖇️",
 PREFIX: process.env.PREFIX || '.' ,
