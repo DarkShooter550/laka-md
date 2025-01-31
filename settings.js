@@ -6,10 +6,10 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-//👉 LAKA-MD=tl5DhZyQ#Hy9UracRtM-W_3vMpILxOIzoWQo_RGALIDLrHqQBZr0 🐣 👈කියන එක කපලා අයින් කරලා ඔයාගේ Session id එක දාන්න.
+// LAKA-MD=tl5DhZyQ#Hy9UracRtM-W_3vMpILxOIzoWQo_RGALIDLrHqQBZr0
 SESSION_ID: process.env.SESSION_ID || "LAKA-MD=tl5DhZyQ#Hy9UracRtM-W_3vMpILxOIzoWQo_RGALIDLrHqQBZr0",
-//👉 mongodb+srv://darkshooter550:kQIoUmay53jKPWYv@cluster0.m2hzt.mongodb.net/ 🖇️ 👈කියන එක කපලා අයින් කරලා ඔයාගේ Mongode Url එක දාන්න.
-MONGODB: process.env.MONGODB || "Put Your Mongode Url 🖇️",
+// mongodb+srv://darkshooter550:kQIoUmay53jKPWYv@cluster0.m2hzt.mongodb.net/
+MONGODB: process.env.MONGODB || "mongodb+srv://darkshooter550:kQIoUmay53jKPWYv@cluster0.m2hzt.mongodb.net/",
 PREFIX: process.env.PREFIX || '.' ,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94781121579' : process.env.OWNER_NUMBER,
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
